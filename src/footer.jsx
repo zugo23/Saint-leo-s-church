@@ -22,8 +22,8 @@ const Footer = () => {
     <Flex
       justifyContent="space-between"
       className='bg-amber-900'
-      px={{ base: '5', md: '50' }}
-      py={{ base: '5', md: '35' }}
+      px={{ base: '3', md: '5', lg: '50' }} // Reduce padding for smaller screens
+      py={{ base: '3', md: '5', lg: '35' }}
       color="white"
       flexDirection={columnDirection}
       align="center"
@@ -79,7 +79,7 @@ const Footer = () => {
         <HStack
           spacing={{ base: '10', md: '20' }}
           mt={{ base: '5', md: '0' }}
-          marginLeft={{ base: '0', md: '500' }}
+          marginLeft={{ base: '0', md: '0' }}
         >
           <VStack>
             <Text textDecoration="" color="white">

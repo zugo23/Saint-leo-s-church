@@ -40,12 +40,12 @@ export default function Body2({ toggleModal }) {
             The origin of Saint Leo’s Catholic Church, Ikeja, Lagos State dates back to 1949 when the early worshippers commenced attendance at the Maryland chapel in the compound of Maryland Teacher Training College, where St. Agnes Parish is today located.
             The congregation grew larger and there was a need for a bigger space.  In view of this, in the early sixties, Fr. J. L. Morrison sought and obtained the permission of the Commandant of Police College Ikeja for the use of the Southern Police College, Ikeja for Sunday Masses.
             However, other churches and associations were also permitted to use the same hall.  On many occasions Catholics had to celebrate Mass in the open field.  The congregation therefore embarked on locating a suitable land at Ikeja for their own use.  In the meantime, the worshippers relocated temporarily to Maryland in 1962.  The Western Nigeria Housing Corporation offered a piece of land adjacent to the present location of Bishop Vining Anglican Church, GRA, Ikeja...................
-              <button
-                className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-black w-15 sm:w-24 md:w-28 lg:w-32 h-10 bg-offWhite mt-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-600 transition duration-300 ease-in-out hover:bg-amber-900 hover:text-white"
-                onClick={toggleModal}
-              >
-                More
-              </button>
+            <button
+  className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-black w-24 sm:w-35 md:w-28 lg:w-32 h-10 bg-offWhite mt-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-600 transition duration-300 ease-in-out hover:bg-amber-900 hover:text-white"
+  onClick={toggleModal}
+>
+  Read More
+</button>
             </p>
           </div>
 
