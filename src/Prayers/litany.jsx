@@ -34,9 +34,9 @@ export default function Litany() {
   };
 
   return (
-    <div className="bg-offWhite relative">
-        <div className="bg-offWhite relative pt-[63px]">
-      <div className="relative w-full h-[200px] mr-[35px] overflow-hidden ">
+    <div className="bg-offWhite">
+        <div className="bg-offWhite pt-[63px]">
+      <div className="relative w-full h-[200px] mr-[35px] ">
         <img
           alt="Your Company"
           src={images[currentIndex]} 
@@ -44,7 +44,7 @@ export default function Litany() {
         />
         
         <div className="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center z-10">
-        <p className="text-white text-7xl font-bold text-center font-sans sm:text-4xl md:text-3xl lg:text-5xl animate-slideUp">
+        <p className="text-white text-3xl font-bold text-center font-sans sm:text-4xl md:text-3xl lg:text-5xl animate-slideUp">
           {textArray[currentIndex]}
         </p>
       </div>

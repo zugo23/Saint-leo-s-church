@@ -44,7 +44,7 @@ export default function Body2({ toggleModal }) {
                 className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-black w-15 sm:w-24 md:w-28 lg:w-32 h-10 bg-offWhite mt-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-600 transition duration-300 ease-in-out hover:bg-amber-900 hover:text-white"
                 onClick={toggleModal}
               >
-                read more
+                More
               </button>
             </p>
           </div>
