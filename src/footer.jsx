@@ -82,44 +82,15 @@ const Footer = () => {
           marginLeft={{ base: '0', md: '500' }}
         >
           <VStack>
-            <Text textDecoration="underline" color="#216624">
-              LINKS
+            <Text textDecoration="" color="white">
+              CONTACT INFORMATION
             </Text>
-            <ChakraLink as={RouterLink} to="/About">
-              About Us
+            <ChakraLink href="tel:+2348117205697" color="white" style={{ display: "flex" }}>
+              08117205697
             </ChakraLink>
-            <ChakraLink as={RouterLink} to="/Faq">
-              FAQ
-            </ChakraLink>
-            <ChakraLink as={RouterLink} to="/Services">
-              Services
-            </ChakraLink>
-          </VStack>
-
-          <VStack>
-            <Text textDecoration="underline" color="#216624">
-              POLICY
-            </Text>
-            <ChakraLink as={RouterLink} to="/Features">
-              Features
-            </ChakraLink>
-            <ChakraLink as={RouterLink} to="/Privacy">
-              Privacy
-            </ChakraLink>
-            <ChakraLink as={RouterLink} to="/Terms">
-              Terms of use
-            </ChakraLink>
-          </VStack>
-
-          <VStack mb="8">
-            <Text textDecoration="underline" color="#216624">
-              HELP
-            </Text>
-            <ChakraLink as={RouterLink} to="/Contact">
-              Contact Us
-            </ChakraLink>
-            <ChakraLink as={RouterLink} to="/Career">
-              Career
+            {/* WhatsApp link */}
+            <ChakraLink href="https://wa.me/+2348117205697" color="white">
+              +1238117205697
             </ChakraLink>
           </VStack>
         </HStack>
