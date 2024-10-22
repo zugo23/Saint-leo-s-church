@@ -102,9 +102,6 @@ export default function Body() {
         <Activity />
       </div>
       <ChakraProvider>
-      <div data-aos="fade-down" data-aos-delay="400">
-        <Footer />
-      </div>
 
       {/* Scroll to Top Button */}
       {showScrollTop && (
